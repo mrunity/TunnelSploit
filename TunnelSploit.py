@@ -84,7 +84,8 @@ while 1:
      files = conn.recv(6000)
      files = files.decode()
      print("Result:", files)
-      elif command == "Quit":
+         
+     elif command == "Quit":
         conn.close()
         s.close()
         sys.exit()
